@@ -16,7 +16,7 @@ Prior to joining QMUL, I worked as an Impact Evaluation Analyst at [DIME, World 
 I obtained an MSc Economics from the London School of Economics and Political Science (LSE).
 
 <!-- include link to CV here -->
-You can find my CV [here](http://nshuti-k.github.io/files/cv-kieran-byrne.pdf).
+You can find my CV [here](http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf).
 
 ## Working Papers
 

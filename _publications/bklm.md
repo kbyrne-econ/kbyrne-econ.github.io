@@ -7,7 +7,7 @@ collection: working-papers
 #date: 2009-10-01
 venue: 'Conditionally Accepted, Journal Development Economics'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://nshuti-k.github.io/files/bklm.pdf'
+paperurl: 'http://kbyrne-econ.github.io/files/bklm.pdf'
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
