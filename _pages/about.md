@@ -1,15 +1,85 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+#title: "Kieran Byrne"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Welcome! I am a PhD student at Queen Mary University of London (QMUL). 
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research interests are at the intersection of development and public economics, with a particular focus on firms.
+
+Prior to joining QMUL, I worked as an Impact Evaluation Analyst at [DIME, World Bank](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation) and as an [Overseas Development Institute (ODI) fellow](https://odi.org/en/fellowship-scheme/) in Rwanda.
+
+I obtained an MSc Economics from the London School of Economics and Political Science (LSE).
+
+<!-- include link to CV here -->
+You can find my CV [here](http://nshuti-k.github.io/files/cv-kieran-byrne.pdf).
+
+## Working Papers
+
+{% include base_path %}
+
+<!-- Debug: Check total publications -->
+<!-- Total publications: {{ site.publications.size }} -->
+
+<!-- Display working papers -->
+{% assign working_papers = site.publications | where: "collection", "working-papers" %}
+<!-- Working papers found: {{ working_papers.size }} -->
+{% if working_papers.size > 0 %}
+  {% for post in working_papers reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No working papers found.</em></p>
+{% endif %}
+
+## Work-in-Progress
+
+<!-- Display work in progress -->
+{% assign work_in_progress = site.publications | where: "collection", "work-in-progress" %}
+<!-- Work in progress found: {{ work_in_progress.size }} -->
+{% if work_in_progress.size > 0 %}
+  {% for post in work_in_progress reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No work-in-progress papers found.</em></p>
+{% endif %}
+
+## Pre-doctoral research
+
+<!-- Display pre-doctoral research -->
+{% assign pre_doctoral = site.publications | where: "collection", "pre-doctoral-research" %}
+<!-- Pre-doctoral research found: {{ pre_doctoral.size }} -->
+{% if pre_doctoral.size > 0 %}
+  {% for post in pre_doctoral reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No pre-doctoral research papers found.</em></p>
+{% endif %}
+
+## Policy Papers
+
+<!-- Display policy papers -->
+{% assign policy_papers = site.publications | where: "collection", "policy" %}
+<!-- Policy papers found: {{ policy_papers.size }} -->
+{% if policy_papers.size > 0 %}
+  {% for post in policy_papers reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No policy papers found.</em></p>
+{% endif %}
+
+
+
+<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+
+You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
 ======
@@ -25,11 +95,11 @@ For those users that need more advanced functionality, the template also support
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+2. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
+3. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+4. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+5. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+6. Check status by going to the repository settings, in the "GitHub pages" section
 
 Site-wide configuration
 ------
@@ -53,4 +123,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
