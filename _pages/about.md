@@ -7,27 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a PhD student at Queen Mary University of London (QMUL). 
+<p style="font-size: 0.85em;">Welcome! I am a PhD student at Queen Mary University of London (QMUL).</p>
 
-My research interests are at the intersection of development and public economics, with a particular focus on firms.
+<p style="font-size: 0.85em;">My research interests are at the intersection of development and public economics, with a particular focus on firms.</p>
 
-Prior to joining QMUL, I worked as an Impact Evaluation Analyst at [DIME, World Bank](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation) and as an [Overseas Development Institute (ODI) fellow](https://odi.org/en/fellowship-scheme/) in Rwanda.
-
-I obtained an MSc Economics from the London School of Economics and Political Science (LSE).
+<p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst in the <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact Evaluation Department (DIME)</a> of the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Initiative (ODI) fellow</a> in Rwanda. I obtained an MSc Economics from the London School of Economics and Political Science (LSE).</p>
 
 <!-- include link to CV here -->
-You can find my CV [here](http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf).
+<p style="font-size: 0.85em;">You can find my CV <a href="http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf">here</a>.</p>
 
-## Working Papers
-
-{% include base_path %}
-
-<!-- Debug: Check total publications -->
-<!-- Total publications: {{ site.publications.size }} -->
+<h2 style="font-size: 0.85em;">Working Papers</h2>
 
 <!-- Display working papers -->
-{% assign working_papers = site.publications | where: "collection", "working-papers" %}
-<!-- Working papers found: {{ working_papers.size }} -->
+{% assign working_papers = site.publications | where: "paper_type", "working-papers" %}
+
 {% if working_papers.size > 0 %}
   {% for post in working_papers reversed %}
     {% include archive-single.html %}
@@ -36,11 +29,11 @@ You can find my CV [here](http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf
   <p><em>No working papers found.</em></p>
 {% endif %}
 
-## Work-in-Progress
+<h2 style="font-size: 0.85em;">Work in Progress</h2>
 
 <!-- Display work in progress -->
-{% assign work_in_progress = site.publications | where: "collection", "work-in-progress" %}
-<!-- Work in progress found: {{ work_in_progress.size }} -->
+{% assign work_in_progress = site.publications | where: "paper_type", "work-in-progress" %}
+
 {% if work_in_progress.size > 0 %}
   {% for post in work_in_progress reversed %}
     {% include archive-single.html %}
@@ -49,11 +42,22 @@ You can find my CV [here](http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf
   <p><em>No work-in-progress papers found.</em></p>
 {% endif %}
 
-## Pre-doctoral research
+<h2 style="font-size: 0.85em;">Policy Papers</h2>
+
+<!-- Display policy papers -->
+{% assign policy_papers = site.publications | where: "paper_type", "policy" %}
+{% if policy_papers.size > 0 %}
+  {% for post in policy_papers reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p><em>No policy papers found.</em></p>
+{% endif %}
+
+<h2 style="font-size: 0.85em;">Pre-doctoral Publications</h2>
 
 <!-- Display pre-doctoral research -->
-{% assign pre_doctoral = site.publications | where: "collection", "pre-doctoral-research" %}
-<!-- Pre-doctoral research found: {{ pre_doctoral.size }} -->
+{% assign pre_doctoral = site.publications | where: "paper_type", "pre-doctoral-research" %}
 {% if pre_doctoral.size > 0 %}
   {% for post in pre_doctoral reversed %}
     {% include archive-single.html %}
@@ -62,18 +66,7 @@ You can find my CV [here](http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf
   <p><em>No pre-doctoral research papers found.</em></p>
 {% endif %}
 
-## Policy Papers
 
-<!-- Display policy papers -->
-{% assign policy_papers = site.publications | where: "collection", "policy" %}
-<!-- Policy papers found: {{ policy_papers.size }} -->
-{% if policy_papers.size > 0 %}
-  {% for post in policy_papers reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p><em>No policy papers found.</em></p>
-{% endif %}
 
 
 

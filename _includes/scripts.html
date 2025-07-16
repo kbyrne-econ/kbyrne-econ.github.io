@@ -1,3 +1,16 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+function toggleAbstract(id) {
+    var abstractDiv = document.getElementById('abstract-' + id);
+    if (abstractDiv) {
+        if (abstractDiv.style.display === 'none' || abstractDiv.style.display === '') {
+            abstractDiv.style.display = 'block';
+        } else {
+            abstractDiv.style.display = 'none';
+        }
+    }
+}
+</script>
+
 {% include analytics.html %}
