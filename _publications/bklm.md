@@ -14,7 +14,7 @@ blogposts:
     url: "https://blogs.worldbank.org/en/impactevaluations/just-little-bartik-exposure"
   - title: "Development Impact paper blog "
     url: "https://blogs.worldbank.org/en/impactevaluations/were-there-enough-good-masks"
-  - title: "World Bank Working Paper"
+  - title: "World Bank Working Paper Version"
     url: "https://documents1.worldbank.org/curated/en/099716204042210015/pdf/IDU05c9e060d0a9560467108de80f629ad1a8e0f.pdf"
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
