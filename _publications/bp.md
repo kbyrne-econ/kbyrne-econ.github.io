@@ -1,5 +1,5 @@
 ---
-title: "Education reforms and adult skills: Evidence from Estonia"
+title: "Education Reforms and Adult Skills: Evidence from Estonia"
 authors: "with <a href='https://sites.google.com/view/alexanderplekhanov'>A. Plekhanov</a>"
 paper_type: pre-doctoral-research
 #category: manuscripts

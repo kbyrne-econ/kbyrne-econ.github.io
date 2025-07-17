@@ -1,5 +1,5 @@
 ---
-title: "Sectoral heterogeneity in the COVID-19 recovery: Evidence from Rwanda"
+title: "Sectoral heterogeneity in the COVID-19 Recovery: Evidence from Rwanda"
 authors: "with <a href='https://jloeser.github.io/'>J. Loeser</a>, S. Karpe, <a href='https://sites.google.com/site/fkondylis/'>F. Kondylis</a>, <a href='https://www.meganlangecon.com/'>M. Lang</a>"
 paper_type: policy
 #category: manuscripts
