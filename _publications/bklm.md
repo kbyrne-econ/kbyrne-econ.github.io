@@ -6,7 +6,7 @@ paper_type: working-papers
 #permalink: /publication/bklm
 excerpt: 'Can trade frictions limit access to improved health technologies? Rwanda encouraged and licensed domestic production of high-quality masks by a few selected textile manufacturers at the start of the COVID-19 pandemic. We exploit spatial variation in exposure to mask manufacturing through pre-licensing medical and textile trade networks within an event-study design using receipt-level transaction data. Local markets less exposed to mask manufacturing had higher mask prices, purchased fewer masks, and experienced faster growth in COVID-19 infections proxied by demand for anti-fever medicine.The dynamics of our results suggest that mask quality, rather than quantity, explains reduced infections caused by manufactured masks.'
 #date: 2009-10-01
-venue: 'Conditionally Accepted, Journal Development Economics'
+venue: 'Conditionally Accepted, Journal of Development Economics'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://kbyrne-econ.github.io/files/bklm.pdf'
 blogposts:

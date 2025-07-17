@@ -64,9 +64,9 @@
         {% if post.collection == 'teaching' %}
           <p style="font-size: 0.85em;"> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% unless post.paper_type == 'working-papers' or post.paper_type == 'work-in-progress' %}
+          {% if post.venue %}
             <p style="font-size: 0.85em;"><i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %} </p>
-          {% endunless %}
+          {% endif %}
         {% elsif post.date %}
          <p class="page__date" style="font-size: 0.85em;"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
