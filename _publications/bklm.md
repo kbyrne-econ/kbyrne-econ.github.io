@@ -1,6 +1,6 @@
 ---
 title: "A Few Good Masks: Evidence from Mask Manufacturing in Rwanda during the COVID-19 Pandemic"
-authors: "with D. Mukama, <a href='https://sites.google.com/site/decrgkondylis/'>F. Kondylis</a>, <a href='https://jloeser.github.io/'>J. Loeser</a>"
+authors: "with D. Mukama, <a href='https://sites.google.com/site/decrgkondylis/'>F. Kondylis</a>, <a href='https://johnloeser.github.io/'>J. Loeser</a>"
 paper_type: working-papers
 #category: manuscripts
 #permalink: /publication/bklm
