@@ -11,7 +11,7 @@ redirect_from:
 
 <p style="font-size: 0.85em;">My research interests are at the intersection of development and public economics, with a particular focus on firms.</p>
 
-<p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst in the <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact Evaluation Department (DIME)</a> of the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Initiative (ODI) fellow</a> in Rwanda. I obtained an MSc Economics from the London School of Economics and Political Science (LSE).</p>
+<p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst at <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact (DIME/DECDI)</a> at the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Initiative (ODI) fellow</a> in Rwanda. I obtained an MSc Economics from the London School of Economics and Political Science (LSE).</p>
 
 <!-- include link to CV here -->
 <p style="font-size: 0.85em;">You can find my CV <a href="http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf">here</a>.</p>
