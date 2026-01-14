@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p style="font-size: 0.85em;">Welcome! I am a PhD student at Queen Mary University of London (QMUL).</p>
+<p style="font-size: 0.85em;">Welcome! I am a PhD candidate at Queen Mary University of London (QMUL).</p>
 
 <p style="font-size: 0.85em;">My research interests are at the intersection of development and public economics, with a particular focus on firms.</p>
 
