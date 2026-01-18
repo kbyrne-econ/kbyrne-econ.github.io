@@ -16,6 +16,16 @@ redirect_from:
 <!-- include link to CV here -->
 <p style="font-size: 0.85em;">You can find my CV <a href="http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf">here</a>.</p>
 
+<h2 style="font-size: 0.85em;">Publications</h2>
+
+<!-- Display publications -->
+{% assign publications = site.publications | where: "category", "publications" | sort: "order" %}
+{% if publications.size > 0 %}
+  {% for post in publications %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
 <h2 style="font-size: 0.85em;">Work in Progress</h2>
 
 <!-- Display work in progress -->
@@ -33,16 +43,6 @@ redirect_from:
 {% assign policy_papers = site.publications | where: "category", "policy" %}
 {% if policy_papers.size > 0 %}
   {% for post in policy_papers reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-<h2 style="font-size: 0.85em;">Publications</h2>
-
-<!-- Display publications -->
-{% assign publications = site.publications | where: "category", "publications" | sort: "order" %}
-{% if publications.size > 0 %}
-  {% for post in publications %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

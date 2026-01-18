@@ -27,7 +27,7 @@
     {% endif %}
 
     <div class="archive__item-title" itemprop="headline" style="font-size: 0.85em;">
-      {% if post.excerpt %}
+      {% if post.excerpt and post.excerpt != "" %}
         <span class="paper-title-clickable" onclick="toggleAbstract('{{ post.id | slugify }}')" style="cursor: pointer;">{{ title }}</span>
       {% else %}
         <span>{{ title }}</span>
@@ -55,7 +55,7 @@
     </div>
     {% endif %}
     
-    {% if post.excerpt %}
+    {% if post.excerpt and post.excerpt != "" %}
     <div id="abstract-{{ post.id | slugify }}" class="abstract-content" style="display: none; margin-top: 10px; padding: 10px; border-top: 1px solid #e0e0e0; font-style: italic; color: #666; font-size: 0.85em;">
       {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
     </div>
