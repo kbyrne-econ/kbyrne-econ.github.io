@@ -2,6 +2,7 @@
 title: "Technology, Tax and Domestic Trade: Evidence from Rwanda's Electronic Invoicing Expansion"
 authors: "with <a href='https://pierrebachas.weebly.com/'>P. Bachas</a>, <a href='https://sites.google.com/site/decrgkondylis/'>F. Kondylis</a>, <a href='https://www.lzavala.com/'>L. Zavala</a>, J. Karangwa"
 category: work-in-progress
+order: 1
 #permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'Digital technology facilitates trade but also increases the visibility of firms’ activity to the government. This paper examines the trade-off between technology adoption and regulatory exposure in the context of electronic billing machines (EBM) and business taxation in Rwanda. In December 2020, the government mandated that large firms’ tax deductions for purchases be validated by corresponding EBM receipts. Using a shift-share design, we find that receipt demand from large clients predicts EBM adoption and growth of small suppliers. We combine a model of invoicing in supply chains and a nationwide survey of firms to shed light on the underlying mechanisms.'
 #date: 2010-10-01

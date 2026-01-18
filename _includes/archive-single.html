@@ -27,7 +27,11 @@
     {% endif %}
 
     <div class="archive__item-title" itemprop="headline" style="font-size: 0.85em;">
-      <span class="paper-title-clickable" onclick="toggleAbstract('{{ post.id | slugify }}')" style="cursor: pointer;">{{ title }}</span>
+      {% if post.excerpt %}
+        <span class="paper-title-clickable" onclick="toggleAbstract('{{ post.id | slugify }}')" style="cursor: pointer;">{{ title }}</span>
+      {% else %}
+        <span>{{ title }}</span>
+      {% endif %}
       {% if post.paperurl %}
         <a href=" {{ post.paperurl }} ">Paper</a>
         {% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}

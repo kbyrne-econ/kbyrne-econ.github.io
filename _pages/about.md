@@ -19,10 +19,10 @@ redirect_from:
 <h2 style="font-size: 0.85em;">Work in Progress</h2>
 
 <!-- Display work in progress -->
-{% assign work_in_progress = site.publications | where: "category", "work-in-progress" %}
+{% assign work_in_progress = site.publications | where: "category", "work-in-progress" | sort: "order" %}
 
 {% if work_in_progress.size > 0 %}
-  {% for post in work_in_progress reversed %}
+  {% for post in work_in_progress %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
@@ -40,9 +40,9 @@ redirect_from:
 <h2 style="font-size: 0.85em;">Publications</h2>
 
 <!-- Display publications -->
-{% assign publications = site.publications | where: "category", "publications" %}
+{% assign publications = site.publications | where: "category", "publications" | sort: "order" %}
 {% if publications.size > 0 %}
-  {% for post in publications reversed %}
+  {% for post in publications %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
