@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  28 JAN 2026 09:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  28 JAN 2026 09:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,7 +281,7 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `cv-kieran-byrne.out' has not changed.
-(rerunfilecheck)             Checksum: 930DED241B354D83F9094A38A7E7075E;852.
+(rerunfilecheck)             Checksum: 96E42C41E64B46624790793CCA720D6C;809.
  ) 
 Here is how much of TeX's memory you used:
  11249 strings out of 473523
@@ -292,7 +292,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,380b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on cv-kieran-byrne.pdf (2 pages, 132736 bytes).
+Output written on cv-kieran-byrne.pdf (2 pages, 133005 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
