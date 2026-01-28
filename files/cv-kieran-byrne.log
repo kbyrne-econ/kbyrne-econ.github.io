@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  28 JAN 2026 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  28 JAN 2026 09:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -260,6 +260,11 @@ LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inpu
  (C:\Users\tew807\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 115.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 115.
+
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -284,15 +289,15 @@ Package rerunfilecheck Info: File `cv-kieran-byrne.out' has not changed.
 (rerunfilecheck)             Checksum: 96E42C41E64B46624790793CCA720D6C;809.
  ) 
 Here is how much of TeX's memory you used:
- 11249 strings out of 473523
- 174604 string characters out of 5714147
- 587457 words of memory out of 5000000
- 34364 multiletter control sequences out of 15000+600000
- 561659 words of font info for 45 fonts, out of 8000000 for 9000
+ 11264 strings out of 473523
+ 174756 string characters out of 5714147
+ 589457 words of memory out of 5000000
+ 34373 multiletter control sequences out of 15000+600000
+ 563744 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,380b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on cv-kieran-byrne.pdf (2 pages, 133005 bytes).
+ 75i,11n,79p,380b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on cv-kieran-byrne.pdf (2 pages, 129663 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
