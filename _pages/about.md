@@ -11,59 +11,40 @@ redirect_from:
 
 <p style="font-size: 0.85em;">My research interests are at the intersection of development and public economics, with a particular focus on firms.</p>
 
-<p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst at <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact (DIME/DECDI)</a> at the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Institute (ODI) fellow</a>. I obtained an MSc Economics from the London School of Economics and Political Science (LSE).</p>
+<p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst at the <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact Group</a> of the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Institute (ODI) fellow</a>. I obtained an MSc Economics from the London School of Economics and Political Science (LSE).</p>
 
 <!-- include link to CV here -->
 <p style="font-size: 0.85em;">You can find my CV <a href="http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf">here</a>.</p>
 
-<h2 style="font-size: 0.85em;">Working Papers</h2>
+<h2 style="font-size: 0.85em;">Publications</h2>
 
-<!-- Display working papers -->
-{% assign working_papers = site.publications | where: "paper_type", "working-papers" %}
-
-{% if working_papers.size > 0 %}
-  {% for post in working_papers reversed %}
+<!-- Display publications -->
+{% assign publications = site.publications | where: "category", "publications" | sort: "order" %}
+{% if publications.size > 0 %}
+  {% for post in publications %}
     {% include archive-single.html %}
   {% endfor %}
-{% else %}
-  <p><em>No working papers found.</em></p>
 {% endif %}
 
 <h2 style="font-size: 0.85em;">Work in Progress</h2>
 
 <!-- Display work in progress -->
-{% assign work_in_progress = site.publications | where: "paper_type", "work-in-progress" %}
+{% assign work_in_progress = site.publications | where: "category", "work-in-progress" | sort: "order" %}
 
 {% if work_in_progress.size > 0 %}
-  {% for post in work_in_progress reversed %}
+  {% for post in work_in_progress %}
     {% include archive-single.html %}
   {% endfor %}
-{% else %}
-  <p><em>No work-in-progress papers found.</em></p>
 {% endif %}
 
-<h2 style="font-size: 0.85em;">Policy Papers</h2>
+<h2 style="font-size: 0.85em;">Policy</h2>
 
 <!-- Display policy papers -->
-{% assign policy_papers = site.publications | where: "paper_type", "policy" %}
+{% assign policy_papers = site.publications | where: "category", "policy" %}
 {% if policy_papers.size > 0 %}
   {% for post in policy_papers reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% else %}
-  <p><em>No policy papers found.</em></p>
-{% endif %}
-
-<h2 style="font-size: 0.85em;">Pre-doctoral Publications</h2>
-
-<!-- Display pre-doctoral research -->
-{% assign pre_doctoral = site.publications | where: "paper_type", "pre-doctoral-research" %}
-{% if pre_doctoral.size > 0 %}
-  {% for post in pre_doctoral reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% else %}
-  <p><em>No pre-doctoral research papers found.</em></p>
 {% endif %}
 
 
