@@ -32,6 +32,9 @@
       {% else %}
         <span>{{ title }}</span>
       {% endif %}
+      {% if post.authors %}
+        <span style="color: #666;"> {{ post.authors }}</span>
+      {% endif %}
       {% if post.paperurl %}
         <a href=" {{ post.paperurl }} ">Paper</a>
         {% if post.slidesurl %} | <a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}
@@ -48,12 +51,6 @@
         {% for blogpost in post.blogposts %}<a href="{{ blogpost.url }}">{{ blogpost.title }}</a>{% unless forloop.last %} | {% endunless %}{% endfor %}
       {% endif %}
     </div>
-    
-    {% if post.authors %}
-    <div class="authors" style="font-size: 0.85em; color: #666; margin-top: 5px;">
-      {{ post.authors }}
-    </div>
-    {% endif %}
     
     {% if post.excerpt and post.excerpt != "" %}
     <div id="abstract-{{ post.id | slugify }}" class="abstract-content" style="display: none; margin-top: 10px; padding: 10px; border-top: 1px solid #e0e0e0; font-style: italic; color: #666; font-size: 0.85em;">

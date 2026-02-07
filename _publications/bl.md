@@ -1,5 +1,5 @@
 ---
-title: "Fuel Costs and Domestic Trade in Uganda"
+title: "Fuel Costs and Domestic Trade"
 authors: "with P. Lakuma"
 category: work-in-progress
 order: 2
