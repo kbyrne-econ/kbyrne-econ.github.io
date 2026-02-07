@@ -1,6 +1,6 @@
 ---
 title: "Fuel Costs and Domestic Trade"
-authors: "with P. Lakuma"
+authors: "[w/ P. Lakuma]"
 category: work-in-progress
 order: 2
 ---

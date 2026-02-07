@@ -1,6 +1,6 @@
 ---
 title: "Education Reforms and Adult Skills: Evidence from Estonia"
-authors: "with <a href='https://sites.google.com/view/alexanderplekhanov'>A. Plekhanov</a>"
+authors: "[w/ <a href='https://sites.google.com/view/alexanderplekhanov'>A. Plekhanov</a>]"
 category: publications
 order: 2
 #permalink: /publication/bklm

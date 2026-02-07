@@ -1,6 +1,6 @@
 ---
 title: "Technology, Tax and Domestic Trade: Evidence from Rwanda's Electronic Invoicing Expansion"
-authors: "with <a href='https://pierrebachas.weebly.com/'>P. Bachas</a>, <a href='https://sites.google.com/site/decrgkondylis/'>F. Kondylis</a>, <a href='https://www.lzavala.com/'>L. Zavala</a>, J. Karangwa"
+authors: "[w/ <a href='https://pierrebachas.weebly.com/'>P. Bachas</a>, <a href='https://sites.google.com/site/decrgkondylis/'>F. Kondylis</a>, <a href='https://www.lzavala.com/'>L. Zavala</a>, J. Karangwa]"
 category: work-in-progress
 order: 1
 #permalink: /publication/2010-10-01-paper-title-number-2
