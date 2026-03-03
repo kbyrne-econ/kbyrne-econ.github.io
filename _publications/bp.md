@@ -1,5 +1,5 @@
 ---
-title: "Education Reforms and Adult Skills: Evidence from Estonia"
+title: "<a href='https://www.sciencedirect.com/science/article/pii/S027277572100025X'>Education Reforms and Adult Skills: Evidence from Estonia</a>"
 authors: "[w/ <a href='https://sites.google.com/view/alexanderplekhanov'>A. Plekhanov</a>]"
 category: publications
 order: 2
