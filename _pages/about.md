@@ -13,7 +13,7 @@ redirect_from:
 
 <p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst at the <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact Group</a> of the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Institute (ODI) fellow</a>. I obtained an MSc Economics from the London School of Economics and Political Science (LSE). You can find my CV <a href="http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf">here</a>.</p>
 
-<p style="font-size: 0.85em;">We're organizing a junior researchers' workshop at QMUL this May. Apply <a href="https://www.qmul.ac.uk/sef/events/conferences/items/call-for-papers---8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">here</a>!</p>
+<p style="font-size: 0.85em;">We're organizing a junior researchers' workshop at QMUL this May. Details <a href="https://www.qmul.ac.uk/sef/events/conferences/items/call-for-papers---8th-qmul-economics-and-finance-workshop-for-phd--post-doctoral-students.html">here</a>!</p>
 
 
 <h2 style="font-size: 0.85em;">Publications</h2>
