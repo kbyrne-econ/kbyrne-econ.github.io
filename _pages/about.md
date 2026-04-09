@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p style="font-size: 0.85em;">Welcome! I am a PhD candidate at Queen Mary University of London (QMUL).</p>
-
-<p style="font-size: 0.85em;">My research interests are at the intersection of development and public economics, with a particular focus on firms.</p>
+<p style="font-size: 0.85em;">Welcome! I am a PhD candidate at Queen Mary University of London (QMUL). My research interests are at the intersection of development and public economics, with a particular focus on firms.</p>
 
 <p style="font-size: 0.85em;">Prior to joining QMUL, I worked as an Impact Evaluation Analyst at the <a href="https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation">Development Impact Group</a> of the World Bank and as an <a href="https://odi.org/en/fellowship-scheme/">Overseas Development Institute (ODI) fellow</a>. I obtained an MSc Economics from the London School of Economics and Political Science (LSE). You can find my CV <a href="http://kbyrne-econ.github.io/files/cv-kieran-byrne.pdf">here</a>.</p>
 
