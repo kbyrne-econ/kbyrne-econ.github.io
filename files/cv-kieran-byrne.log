@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  28 APR 2026 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.7)  10 MAY 2026 19:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,15 +289,15 @@ Package rerunfilecheck Info: File `cv-kieran-byrne.out' has not changed.
 (rerunfilecheck)             Checksum: 6137DA15B747BD6A6B7595058384E470;1055.
  ) 
 Here is how much of TeX's memory you used:
- 11268 strings out of 473523
- 174798 string characters out of 5714147
+ 11266 strings out of 473523
+ 174779 string characters out of 5714147
  587466 words of memory out of 5000000
- 34375 multiletter control sequences out of 15000+600000
- 563744 words of font info for 52 fonts, out of 8000000 for 9000
+ 34374 multiletter control sequences out of 15000+600000
+ 563446 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,380b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,380b,445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/tew807/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on cv-kieran-byrne.pdf (2 pages, 131570 bytes).
+Output written on cv-kieran-byrne.pdf (2 pages, 131117 bytes).
 PDF statistics:
  103 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)

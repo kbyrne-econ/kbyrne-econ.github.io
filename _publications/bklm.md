@@ -1,5 +1,6 @@
 ---
-title: "<a href='https://www.sciencedirect.com/science/article/abs/pii/S0304387825002664'>A Few Good Masks: Mask Manufacturing and Supply Networks in Rwanda during the COVID-19 pandemic</a>"
+title: "A Few Good Masks: Mask Manufacturing and Supply Networks in Rwanda during the COVID-19 pandemic"
+journalurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0304387825002664'
 authors: "[w/ D. Mukama, <a href='https://sites.google.com/site/decrgkondylis/'>F. Kondylis</a>, <a href='https://johnloeser.github.io/'>J. Loeser</a>]"
 category: publications
 order: 1
