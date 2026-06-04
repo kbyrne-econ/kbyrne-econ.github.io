@@ -8,7 +8,7 @@ excerpt: 'This paper studies the impact of education reforms in Estonia in the 1
 #date: 2009-10-01
 venue: 'Economics of Education Review'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S027277572100025X'
+journalurl: 'https://www.sciencedirect.com/science/article/pii/S027277572100025X'
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
